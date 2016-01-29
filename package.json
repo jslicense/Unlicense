@@ -1,0 +1,15 @@
+{
+  "name": "unlicense",
+  "description": "Plaintext of The Unlicense from www.unlicense.org",
+  "version": "0.0.0",
+  "files": [
+    "README.md",
+    "Unlicense.json",
+    "package.json"
+  ],
+  "main": "Unlicense.json",
+  "repository": "jslicense/unlicense",
+  "scripts": {
+    "prepublish": "node -e \"process.stdout.write(JSON.stringify(require('fs').readFileSync('Unlicense').toString()))\" > Unlicense.json"
+  }
+}
