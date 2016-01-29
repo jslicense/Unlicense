@@ -7,6 +7,10 @@
     "Unlicense.json",
     "package.json"
   ],
+  "keywords": [
+    "jslicense",
+    "license"
+  ],
   "main": "Unlicense.json",
   "repository": "jslicense/Unlicense",
   "scripts": {
