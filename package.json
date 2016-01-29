@@ -1,7 +1,7 @@
 {
   "name": "unlicense",
   "description": "Plaintext of The Unlicense from www.unlicense.org",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "files": [
     "README.md",
     "Unlicense.json",
