@@ -8,7 +8,7 @@
     "package.json"
   ],
   "main": "Unlicense.json",
-  "repository": "jslicense/unlicense",
+  "repository": "jslicense/Unlicense",
   "scripts": {
     "prepublish": "node -e \"process.stdout.write(JSON.stringify(require('fs').readFileSync('Unlicense').toString()))\" > Unlicense.json"
   }
